@@ -1,0 +1,20 @@
+.dashboard-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Vollständige Höhe des Viewports */
+}
+
+.dashboard-content {
+  /* Weitere Styles für das innere Element, falls nötig */
+}
+
+/* In dashboard.component.css */
+.add-quest-icon {
+  cursor: pointer;
+  /* Weitere Styles (Größe, Farbe, Positionierung, etc.) */
+}
+
+.fa-plus {
+  /* Styles für das Plus-Icon */
+}

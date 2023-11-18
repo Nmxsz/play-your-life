@@ -1,0 +1,12 @@
+
+<div class="quest-card">
+  <h3>Quest: {{ quest.title }}</h3>
+  <h4>Beschreibung: </h4> <p>{{ quest.description }}</p>
+  <h4>Belohnung: </h4>
+  <div *ngFor="let item of quest.items">
+    <p>{{item.name}}</p>
+    <p>{{item.description}}</p>
+  </div>
+  <button (click)="completeQuest()" [disabled]="quest.completed">Quest abschließen</button>
+</div>
+
